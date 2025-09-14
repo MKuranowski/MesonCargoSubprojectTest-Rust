@@ -1,0 +1,9 @@
+[package]
+name = "gizmo"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "gizmo"
+path = "src/lib.rs"
+crate-type = ["lib", "staticlib", "cdylib"]
